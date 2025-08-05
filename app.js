@@ -15,7 +15,8 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: 'http://localhost:3000', // Adjust if your frontend runs on a different port (e.g., 5000 for React)
+  origin: 'https://bsk-gray.vercel.app',
+ // Adjust if your frontend runs on a different port (e.g., 5000 for React)
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Cache-Control'],
   maxAge: 86400, // Cache preflight response for 24 hours
