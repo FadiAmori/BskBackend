@@ -15,7 +15,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: 'https://bsk-gray.vercel.app',
+  origin: 'https://bsk-rho.vercel.app',
  // Adjust if your frontend runs on a different port (e.g., 5000 for React)
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Cache-Control'],
